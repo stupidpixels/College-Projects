@@ -3,7 +3,7 @@
 /*
    *------------------------------------------------------------------------------*
   | Julio Franco González - 801.13.2416                                            |
-  | Program to connvert any binary number in IEEE 754 representation to a Decimal  |
+  | Program to convert any binary number in IEEE 754 representation to a Decimal  |
   | Number.																		   |
   | Variables: $sign, $a, $exp, $b, $man, $c, $finalExp, $finalNum, $mult, $x, $y, |
   | $z, $i 																		   |
@@ -52,7 +52,7 @@
         return;
 	}
   
-    $y = 7;		// Assign $y as 7 to use as the index for the binary convertion.
+    $y = 7;		// Assign $y as 7 to use as the index for the binary conversion.
 
     foreach ($exp as $x) {	// Foreach loop to convert the exponent part. Assign each value in the array as $x
 
@@ -71,7 +71,7 @@
         
         	$x = 0;
         
-        	echo "{$x} --- 0 to the power of {$y} is {$z}\n";	// Display that the numeber is in fact 0.
+        	echo "{$x} --- 0 to the power of {$y} is {$z}\n";	// Display that the number is in fact 0.
         
         	$z = 0;	// Assign $z to 0 so that I always get 0 as result.
         
@@ -108,13 +108,13 @@
 
     $y = -1;	// Assign $y = -1 to use as the index in the mantissa part convertion.
 
-    $i = 1;		// Assign $i = 1 to use as the omited 1 in the number.
+    $i = 1;		// Assign $i = 1 to use as the omitted 1 in the number.
 
     foreach ($man as $x) {	// Loop to evaluate each value of the array.
 
         if ($x > 0) {	// If the number is 1.
 
-        	$z = pow(2,$y);	// $z = 2^$y to use for the each value in the array for convertion.
+        	$z = pow(2,$y);	// $z = 2^$y to use for the each value in the array for conversion.
 
         	echo $x;
 
@@ -143,7 +143,7 @@
 
     $finalNum = $i*$mult;	// Multiply the mantissa by $mult this will give me the number in decimal.
 
-    	if ($a == "1") {	// If the sign is "1" muliply the final result by -1. This will give the number, but negative.
+    	if ($a == "1") {	// If the sign is "1" multiply the final result by -1. This will give the number, but negative.
 
     		$finalNum = $finalNum * -1;
     	}
