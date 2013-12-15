@@ -2,7 +2,6 @@
    *-----------------------------------------------------------------------------*
   | Julio Franco González - 801.13.2416                                           |
   | This is a program that converts a temperature that the user chooses to either |
-  | Fahrenheit or Celsius.                                                        |
   | Functions - ConvertF : Converts from Celsius to Fahrenheit.                   |
   |           - ConvertC : Converts from Fahrenheit to Celsius.                   |
   | Variables - temp, t                                                           |
