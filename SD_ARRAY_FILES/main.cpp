@@ -1,9 +1,9 @@
 /* Header.
  ------------------------------------------------------------------------------/
- Name        :        Frank Gonzalez --- # 801.13.2416
+ Name          :      Frank Gonzalez --- # 801.13.2416
 
- Description :        This program displays the Elements of an array given by 
-                      the user in an input file and calculates their Avarage
+ Description   :      This program displays the Elements of an array given by 
+                      the user in an input file and calculates their Average
                       and Standard Deviation.
  
 / Algorithms  
