@@ -29,10 +29,10 @@ double convertC(double temp)	// Function to convert from Celsius to Farenheight.
 int main()	// Main Function
 {	
     double temp;	// Defining the variable temp
-    int t;	//	Defining the variable t
+    int t ;	//	Defining the variable t
 
 	cout << "Enter (1) if you want to convert into Celsius. Enter (2) if you want to convert into Farenheight : " << endl;	// Ask for what the user wants to convert.
-	cin >> t;
+	cin >> t ;
 
     cout << "Please enter the temperature you want to convert "  << endl;	// Ask the user for the temperature he wants to convert.
     cin >> temp;

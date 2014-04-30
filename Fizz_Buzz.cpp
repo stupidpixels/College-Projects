@@ -51,8 +51,6 @@ int main() {
         cout << "=== " << i << "\n" ;
   }
 
-  cin.get() ;
-
   return 0 ;
 
 }

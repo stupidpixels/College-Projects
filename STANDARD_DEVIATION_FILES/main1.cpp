@@ -1,9 +1,9 @@
 /* Header.
  ------------------------------------------------------------------------------/
- Name          :      Julio Franco Gonzalez --- # 801.13.2416
+ Name        :        Julio Franco Gonzalez --- # 801.13.2416
 
- Description   :      This program displays the Elements of an array given by 
-                      the user in an input file and calculates their Average
+ Description :        This program displays the Elements of an array given by 
+                      the user in an input file and calculates their Avarage
                       and Standard Deviation.
  
 / Algorithms  
@@ -33,7 +33,6 @@ Standard Deviation -- Input  : A, n, Ave - An array, its size and average
                       5) Divide that by n - 1.
                       6) Calculate the Square Root of that result.
                       7) Output Devi.
-
  -----------------------------------------------------------------------------*/
 
 
@@ -54,7 +53,7 @@ using namespace std ;
  double Deviation(const double [], int, double) ;
  
 
-int SIZE = 20 ;
+int SIZE = 50 ;
 
 int main() {
     
@@ -100,7 +99,6 @@ void Intro(void) {
 
   cout << "\tPlease give the output file a name with the desired extention"
           ", like : '.txt, '.doc', '.docx' .\n" ;
-
 }
 
 /* Read Definition.
@@ -167,10 +165,7 @@ double Average(const double A[], int n) {
  ----------------------------------------------------------------------------*/
 double Deviation(const double A[], int n, double Average) {
 
-  if(n == 0)
-    return 0.0 ;
-
-  double devi ;
+  double devi = 0.0 ;
   double sum = 0.0 ;
 
   for (int i = 0 ; i < n ; ++i) {
