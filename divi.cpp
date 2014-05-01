@@ -10,7 +10,7 @@ int lim ;
 
 // Program description.
 
-cout << "\tThis program will display the divisors of a number the user inputs.\n" ;
+cout << "\tThis program will display the divisors of a number.\n" ;
 
 // Input Number.
 
@@ -21,7 +21,7 @@ lim = n/2 ;
 // Calculate and display the divisors.
 
   for (int i = 1 ; i <= lim ; i++) {
-  //cout << i << endl ;
+
     if (lim % i == 0)
       cout << i << endl ;
   }

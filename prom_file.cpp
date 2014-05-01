@@ -30,6 +30,7 @@ int main() {
   start.open("data.txt") ;
 
   if (start.fail()) {
+    
     cout << "No hay archivo...\n" ;
     return 1 ;
   }
@@ -49,8 +50,10 @@ int main() {
 
     suma += x ;
     n++ ;
+    
     cout << setw(3) << n << ") " << setw(6) << x << endl ;
     end  << setw(3) << n << ") " << setw(6) << x << endl ;
+    
     start >> x ;
 
   }
@@ -60,7 +63,9 @@ start.close() ;
 // Calcular promedio
 
   if (n != 0) {
+    
     prom = suma / static_cast<double>(n) ;
+    
     cout << fixed << setprecision(2) ;
     cout << "El promedio es = " << setw(8) << prom << endl ;
 
@@ -69,6 +74,7 @@ start.close() ;
   }
 
   else
+    
     cout << "Archivo vacio, no hay datos!\n" ;
 
 end.close() ;

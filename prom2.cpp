@@ -12,19 +12,19 @@ int main () {
 
 // Desplegar Proposito
 
-cout << "\t Este programa calcula el promedio de cuantos datos el usuario indique."
+cout << "\t Este programa calcula el promedio de los datos el usuario indique."
 
 // Ingresar y sumar los de datos
 
   cout << "Ingrese datos (-1 para terminar) ---> " ;
   cin >> x ; 
+  
   while ( x != -1 ) {
   
   	suma += x ; 
   	conta++ ;
   	cout << "Ingrese datos (-1 para terminar) ---> " ;
   	cin >> x ; 
-  
   }
    
 // Calcular pormedio
@@ -32,9 +32,9 @@ cout << "\t Este programa calcula el promedio de cuantos datos el usuario indiqu
   if (conta != 0) {
       
       prom = suma / static_cast<double>(conta) ;
+      
       cout << fixed << setprecision(2) ;
       cout << "El promedio = " << setw(10) << prom << endl ;
-   
   }   
   
   else 

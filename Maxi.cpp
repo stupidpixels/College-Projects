@@ -41,10 +41,10 @@ for (x = 1 ; x <= 20 ; x++) {
 
 // Darle el valor maximo de la equacion a max. ----------------*
 
-    if (eq > max) {
-      max = eq ;
-      n = x ;
-    }
+  if (eq > max) {
+    max = eq ;
+    n = x ;
+  }
 }
 
 // Desplegar los resultados. ----------------------------------*

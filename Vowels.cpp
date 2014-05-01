@@ -23,6 +23,7 @@ Algorithm :
 
 #include <iostream>
 #include <string>
+
 using namespace std;
 
 // Define variables.
@@ -54,19 +55,19 @@ int main() {
 
 // Print each letter and if its a vowel also print which vowel it is.
 
-		if (word[i] == 'a' || word[i] == 'e' || word[i] == 'i' || word[i] == 'o' || word[i] == 'u' ||
-        word[i] == 'A' || word[i] == 'E' || word[i] == 'I' || word[i] == 'O' || word[i] == 'U') {
+		if (word[i] == 'a' || word[i] == 'e' || word[i] == 'i' || word[i] == 'o' 
+        || word[i] == 'u' ||
+        
+        word[i] == 'A' || word[i] == 'E' || word[i] == 'I' || word[i] == 'O' 
+        || word[i] == 'U') {
 			
       cout << " === " << x ;
 			
       x++ ; 
-		
     }
-
   }
 
 cout << endl << endl << word << " has " << x - 1 << " vowels.\n " ;
 
 return 0 ; 
-
 }

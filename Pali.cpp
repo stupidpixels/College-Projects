@@ -23,52 +23,56 @@ Algoritmo :
 #include <string>
 #include <iostream>
 
-using namespace std;
+using namespace std ;
 
 int  main() {
 
 // Definir variables.
 	
-  string word;
+  string word ;
 
-	int leng;	
-	int cont=0;
+	int leng ;	
+	int cont = 0 ;
 
 // Pedirle al usuario la palabra.	
 	
-  cout << "Entra una palabra y te diremos si es un palindromo: ";
-	cin >> word;
+  cout << "Entra una palabra y te diremos si es un palindromo: " ;
+	cin >> word ;
 
 // Verificar el length de la palabra.
 
-	leng = word.length() - 1;
+	leng = word.length() - 1 ;
 
 // Loop para virar la palabra alreves.
 
 	for (int x=0 ; x<word.length() ; x++) {
 
-		if(word[x]==word[leng])
+		if(word[x] == word[leng]) {
 		
-    cont+=1;
+    cont += 1 ;
 		
-    leng--;
+    leng-- ;
+
+    }
 	}
 
 // Verificar si es palindromo.
 
-	if(cont == word.length())
+	if(cont == word.length()) {
 
 // Desplegar si es palindromo o no.
 	
 		cout << "la palabra '"<< word<< "' es si un palindromo."
 	
-			 << endl;
+			   << endl ;
+  }
 
-	else
+	else {
 	
-		cout << "la palabra '"<< word<< "' no es un palindromo."
+		cout << "la palabra '"<< word << "' no es un palindromo."
 	
-			 << endl;
+			   << endl ;
+  }
 
-	return 0;
+	return 0 ;
 }

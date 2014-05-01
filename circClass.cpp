@@ -70,11 +70,23 @@ void Output(Circle) ;
 
 int main() {
 
-  Circle Ring ;
+  Circle Ring1 ;
 
-  Ring = Read() ;
+  Ring1 = Read() ;
 
-  Output(Ring) ;
+  Output(Ring1) ;
+
+  Circle Ring2 ;
+
+  Ring2 = Read() ;
+
+  Output(Ring2) ;
+
+  Circle Ring3 ;
+
+  Ring3 = Read() ;
+
+  Output(Ring3) ;
 
   return EXIT_SUCCESS ;
 } 

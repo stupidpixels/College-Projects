@@ -53,15 +53,15 @@ int main() {
 		maxLen = len2 ;
 	}
 
-cout << "The first word's lenght is " <<len1 << " & the second word's lenght is " << len2 << endl ;
+cout << "The first word's lenght is " <<len1 
+     << "The second word's lenght is " << len2 << endl ;
 
-for (int i = 0 ; i < maxLen ; ++i)
-{
+for (int i = 0 ; i < maxLen ; ++i) {
+
 	cout << FirstWord[i] << SecondWord[i] ;
 }
 
 cout << endl << endl ; 
 
 return 0 ;
-
 }
