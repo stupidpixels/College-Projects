@@ -70,23 +70,11 @@ void Output(Circle) ;
 
 int main() {
 
-  Circle Ring1 ;
+  Circle Ring ;
 
-  Ring1 = Read() ;
+  Ring = Read() ;
 
-  Output(Ring1) ;
-
-  Circle Ring2 ;
-
-  Ring2 = Read() ;
-
-  Output(Ring2) ;
-
-  Circle Ring3 ;
-
-  Ring3 = Read() ;
-
-  Output(Ring3) ;
+  Output(Ring) ;
 
   return EXIT_SUCCESS ;
 } 
@@ -114,8 +102,8 @@ void Output(Circle Ring) {
   cout << fixed << setprecision(3) ;
   cout << "\n\t<<< CIRCLE DIMENTIONS >>> \n\n" ;
 
-  cout << "The Radius is   ========= " << setw(8) << Ring.getRad() << endl ;
-  cout << "The Diameter is ========= " << setw(8) << Ring.getDiam()<< endl ;
+  cout << "The Radius is   ========= " << setw(8) << Ring.getRad()  << endl ;
+  cout << "The Diameter is ========= " << setw(8) << Ring.getDiam() << endl ;
 
   cout << "The Circumference is ==== " << setw(8) << Ring.getCirc() << endl ;
   cout << "The Area is     ========= " << setw(8) << Ring.getArea() << endl ;
